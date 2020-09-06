@@ -1,1 +1,63 @@
 /*CSS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+.bg-naranja {
+	background-color: #FFBC00;
+}
+
+/*CARRUSEL*/
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.carousel-caption {
+	background-color: rgba(0,0,0,0.8);
+}
+
+.texto-bienvenida {
+	color: #000;
+	text-align: justify;
+	font-size: 1.3em;
+	font-family: 'Ubuntu', sans-serif;
+}
+.texto-hashtag {
+	font-weight: 600;
+	color: #55868C;
+}
+
+
+.card {
+	/*border: 1px solid #333;*/
+	border-radius: 15px;
+	-webkit-box-shadow: 0px 0px 41px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 41px -13px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 41px -13px rgba(0,0,0,0.75);
+}
+.card:hover {
+	-webkit-box-shadow: 0px 0px 75px -38px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 75px -38px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 75px -38px rgba(0,0,0,0.75);	
+}
+.card-title {
+	font-family: 'Oswald', sans-serif;
+}
+.card-text {
+	font-family: 'Ubuntu', sans-serif;
+}
+.card-img-top {
+	border-radius: 15px 15px 0 0;
+}
+
+/*FOOTER*/
+footer {
+	background-color: #333;
+	color: #FFF;
+}
