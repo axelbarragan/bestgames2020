@@ -1,11 +1,29 @@
 /*CSS*/
 
+/*TIPOGRAFIAS*/
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+/*--*/
 
-
+/*GENERALES*/
 .bg-naranja {
 	background-color: #FFBC00;
+}
+.bg-azul {
+	background-color: #55868c;
+}
+.bg-palido {
+	background-color: #FAFAFF;
+}
+.img-responsive {
+    width: 400px;
+    height: 280px;
+}
+/*--*/
+.subtema {
+	font-family: 'Anton', sans-serif;
+	text-transform: uppercase;
 }
 
 /*CARRUSEL*/
@@ -60,4 +78,50 @@ box-shadow: 0px 0px 75px -38px rgba(0,0,0,0.75);
 footer {
 	background-color: #333;
 	color: #FFF;
+}
+
+/*PAGINA JUEGO*/
+.header-juego {
+	height: 90vh;
+	background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
+}
+.header-fall_guys {
+	background-image: url(https://generacionxbox.com/wp-content/uploads/2020/08/Fall-Guys-1.jpg);
+}
+.texto-juego__descripcion {
+	color: #000;
+	text-align: justify;
+	font-size: 1.3em;
+	font-family: 'Ubuntu', sans-serif;
+}
+.juego__titulo-minititulo {
+	color: #2A2B2A;
+	text-transform: uppercase;
+}
+.no-pad {
+	padding-left: 0;
+	padding-right:0;
+}
+
+/*****/
+
+/*MEDIA QUERIES*/
+@media screen and (min-width: 380px) and (max-width: 767px) {
+	.carousel-item {
+  min-height: 350px;
+}
+	.texto-bienvenida {
+		padding: 0 20px;
+	}
+	.card {
+		margin: 30px 0;
+	}
+
+}
+@media screen and (max-width: 1024px) {
+
 }
