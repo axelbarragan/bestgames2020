@@ -7,6 +7,9 @@
 /*--*/
 
 /*GENERALES*/
+body {
+	background-color: #FAFAFF;
+}
 .bg-naranja {
 	background-color: #FFBC00;
 }
@@ -17,9 +20,16 @@
 	background-color: #FAFAFF;
 }
 .img-responsive {
-    width: 400px;
-    height: 280px;
+    max-width:100%;
+    height:auto;
 }
+.checked {
+  color: orange;
+}
+.juego__disponible-img {
+ 	width: 20%;
+ }
+
 /*--*/
 .subtema {
 	font-family: 'Anton', sans-serif;
@@ -120,6 +130,9 @@ footer {
 	.card {
 		margin: 30px 0;
 	}
+	.juego__padding-mobile {
+ 	padding: 20px 0;
+ }
 
 }
 @media screen and (max-width: 1024px) {
