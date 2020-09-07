@@ -138,6 +138,14 @@ footer {
 /***/
 
 /*PAGINA PLATAFORMAS*/
+.header-plataformas {
+	height: 70vh;
+	background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
+}
 .header-ps4 {
 	background-image: url(https://images5.alphacoders.com/102/thumb-1920-1020604.jpg);
 }
